@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>my_env</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 package for simulating a custom environment with Gazebo.</description>
+  <maintainer email="1403.nc.photos@gmail.com">nishant</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclpy</depend>  <!-- For Python nodes -->
+  
+  <depend>gazebo_ros</depend>  <!-- For Gazebo integration -->
+  <depend>robot_state_publisher</depend>  <!-- For robot state publishing -->
+  <depend>launch</depend>  <!-- For launch files -->
+  <depend>launch_ros</depend>  <!-- For ROS 2 launch files -->
+  <depend>std_msgs</depend>  <!-- For standard message types -->
+  <depend>geometry_msgs</depend>  <!-- For geometry-related message types -->
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Export the package as ament_cmake -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

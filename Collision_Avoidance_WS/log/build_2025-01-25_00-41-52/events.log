@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (my_env) JobQueued: {'identifier': 'my_env', 'dependencies': OrderedDict()}
+[0.000551] (my_env) JobStarted: {'identifier': 'my_env'}
+[0.008842] (my_env) JobProgress: {'identifier': 'my_env', 'progress': 'cmake'}
+[0.009318] (my_env) JobProgress: {'identifier': 'my_env', 'progress': 'build'}
+[0.009895] (my_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env', '--', '-j12', '-l12'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1959'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1757,unix/nishant:/tmp/.ICE-unix/1757'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d4eccea_2481_4a61_8058_8f153e7496c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[0.039203] (my_env) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099883] (-) TimerEvent: {}
+[0.150699] (my_env) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.180472] (my_env) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.200050] (-) TimerEvent: {}
+[0.300849] (-) TimerEvent: {}
+[0.401453] (-) TimerEvent: {}
+[0.501788] (-) TimerEvent: {}
+[0.510125] (my_env) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.525183] (my_env) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.582243] (my_env) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.602041] (-) TimerEvent: {}
+[0.652142] (my_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.699824] (my_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702074] (-) TimerEvent: {}
+[0.802343] (-) TimerEvent: {}
+[0.877888] (my_env) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.902443] (-) TimerEvent: {}
+[0.913587] (my_env) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002661] (-) TimerEvent: {}
+[1.103304] (-) TimerEvent: {}
+[1.203861] (-) TimerEvent: {}
+[1.304447] (-) TimerEvent: {}
+[1.404858] (-) TimerEvent: {}
+[1.419733] (my_env) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.467449] (my_env) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.504997] (-) TimerEvent: {}
+[1.517358] (my_env) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.597005] (my_env) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.605076] (-) TimerEvent: {}
+[1.705399] (-) TimerEvent: {}
+[1.805998] (-) TimerEvent: {}
+[1.906517] (-) TimerEvent: {}
+[2.007355] (-) TimerEvent: {}
+[2.108034] (-) TimerEvent: {}
+[2.156002] (my_env) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.156307] (my_env) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.208138] (-) TimerEvent: {}
+[2.308537] (-) TimerEvent: {}
+[2.408260] (my_env) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.408589] (-) TimerEvent: {}
+[2.409045] (my_env) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.508773] (-) TimerEvent: {}
+[2.609205] (-) TimerEvent: {}
+[2.709714] (-) TimerEvent: {}
+[2.712160] (my_env) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.713791] (my_env) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.753248] (my_env) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.809827] (-) TimerEvent: {}
+[2.910290] (-) TimerEvent: {}
+[3.010916] (-) TimerEvent: {}
+[3.111274] (-) TimerEvent: {}
+[3.143686] (my_env) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[3.211399] (-) TimerEvent: {}
+[3.281205] (my_env) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[3.311514] (-) TimerEvent: {}
+[3.411871] (-) TimerEvent: {}
+[3.492268] (my_env) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.511974] (-) TimerEvent: {}
+[3.577976] (my_env) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[3.612083] (-) TimerEvent: {}
+[3.712553] (-) TimerEvent: {}
+[3.718992] (my_env) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.765484] (my_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.812625] (-) TimerEvent: {}
+[3.842396] (my_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.855525] (my_env) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.856456] (my_env) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[3.868664] (my_env) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[3.895393] (my_env) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[3.912765] (-) TimerEvent: {}
+[4.013131] (-) TimerEvent: {}
+[4.036539] (my_env) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[4.057381] (my_env) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[4.065268] (my_env) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[4.069939] (my_env) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[4.070099] (my_env) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[4.074880] (my_env) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[4.075029] (my_env) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[4.081036] (my_env) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[4.081225] (my_env) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[4.085779] (my_env) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[4.085869] (my_env) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[4.090092] (my_env) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[4.090162] (my_env) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[4.094542] (my_env) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[4.113182] (-) TimerEvent: {}
+[4.172318] (my_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.198679] (my_env) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[4.199209] (my_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[4.213254] (-) TimerEvent: {}
+[4.217023] (my_env) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[4.227100] (my_env) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[4.231982] (my_env) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[4.313424] (-) TimerEvent: {}
+[4.390967] (my_env) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[4.413524] (-) TimerEvent: {}
+[4.467336] (my_env) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[4.499778] (my_env) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.513668] (-) TimerEvent: {}
+[4.552136] (my_env) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[4.613804] (-) TimerEvent: {}
+[4.626069] (my_env) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[4.644537] (my_env) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.645288] (my_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[4.670049] (my_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.679309] (my_env) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.713931] (-) TimerEvent: {}
+[4.723553] (my_env) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[4.800100] (my_env) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.814029] (-) TimerEvent: {}
+[4.830659] (my_env) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.831863] (my_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.832922] (my_env) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.834825] (my_env) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.837365] (my_env) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.859524] (my_env) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[4.860128] (my_env) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.881120] (my_env) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.882096] (my_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.882799] (my_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.907281] (my_env) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.908440] (my_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.914116] (-) TimerEvent: {}
+[5.014474] (-) TimerEvent: {}
+[5.114945] (-) TimerEvent: {}
+[5.124861] (my_env) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[5.160031] (my_env) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[5.191758] (my_env) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[5.215015] (-) TimerEvent: {}
+[5.267284] (my_env) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[5.278153] (my_env) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[5.315139] (-) TimerEvent: {}
+[5.323605] (my_env) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[5.396952] (my_env) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[5.397572] (my_env) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[5.398137] (my_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.398674] (my_env) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[5.415297] (-) TimerEvent: {}
+[5.424745] (my_env) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[5.425452] (my_env) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[5.457266] (my_env) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[5.515417] (-) TimerEvent: {}
+[5.529765] (my_env) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.585910] (my_env) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.586103] (my_env) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.586190] (my_env) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.586404] (my_env) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.586915] (my_env) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.587239] (my_env) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.588678] (my_env) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.588800] (my_env) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.589204] (my_env) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.589567] (my_env) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.592830] (my_env) StdoutLine: {'line': b'-- Generating done\n'}
+[5.595319] (my_env) StdoutLine: {'line': b'-- Build files have been written to: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env\n'}
+[5.615514] (-) TimerEvent: {}
+[5.621310] (my_env) CommandEnded: {'returncode': 0}
+[5.621956] (my_env) JobProgress: {'identifier': 'my_env', 'progress': 'install'}
+[5.634617] (my_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1959'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1757,unix/nishant:/tmp/.ICE-unix/1757'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d4eccea_2481_4a61_8058_8f153e7496c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8PMB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[5.645348] (my_env) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.645520] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch\n'}
+[5.645644] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/robot_state_publisher.launch.py\n'}
+[5.645769] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/spawn_turtlebot3.launch.py\n'}
+[5.645815] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/training_env.launch.py\n'}
+[5.645855] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//urdf\n'}
+[5.645896] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//urdf/turtlebot3_burger.urdf\n'}
+[5.645945] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models\n'}
+[5.645985] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle_pi\n'}
+[5.646042] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle_pi/model.sdf\n'}
+[5.646110] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[5.646170] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle_pi/model.config\n'}
+[5.646219] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_world\n'}
+[5.646260] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_world/model.sdf\n'}
+[5.646301] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_world/meshes\n'}
+[5.646340] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_world/meshes/wall.dae\n'}
+[5.646717] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[5.646757] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_world/model.config\n'}
+[5.646793] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_world/model-1_4.sdf\n'}
+[5.646829] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle\n'}
+[5.646865] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle/model.sdf\n'}
+[5.646905] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle/model.config\n'}
+[5.646947] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[5.646983] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_house\n'}
+[5.647032] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_house/model.sdf\n'}
+[5.647091] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_house/model.config\n'}
+[5.647146] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common\n'}
+[5.647191] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/meshes\n'}
+[5.647227] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[5.647288] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/meshes/lds.dae\n'}
+[5.647326] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/meshes/tire.dae\n'}
+[5.647360] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/meshes/r200.dae\n'}
+[5.647421] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[5.647456] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[5.647488] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_common/model.config\n'}
+[5.647520] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_burger\n'}
+[5.647560] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_burger/model.sdf\n'}
+[5.647592] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_burger/model.config\n'}
+[5.647623] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_burger/model-1_4.sdf\n'}
+[5.647653] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world\n'}
+[5.647686] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/model.sdf\n'}
+[5.647729] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[5.647838] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[5.647897] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[5.647970] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[5.648039] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[5.648126] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/model.config\n'}
+[5.648212] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacles\n'}
+[5.648383] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[5.648439] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[5.648494] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle2\n'}
+[5.648548] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[5.648621] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[5.648680] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/goal_box\n'}
+[5.648735] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[5.648911] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[5.649324] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/inner_walls\n'}
+[5.649512] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[5.649560] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[5.649602] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle1\n'}
+[5.649642] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[5.649681] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[5.649719] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds\n'}
+[5.649758] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds/bot_with_people.world\n'}
+[5.649795] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/package_run_dependencies/my_env\n'}
+[5.649832] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/parent_prefix_path/my_env\n'}
+[5.649911] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/ament_prefix_path.sh\n'}
+[5.649969] (my_env) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/ament_prefix_path.dsv\n'}
+[5.650011] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/path.sh\n'}
+[5.650050] (my_env) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/path.dsv\n'}
+[5.650088] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.bash\n'}
+[5.650128] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.sh\n'}
+[5.650166] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.zsh\n'}
+[5.650204] (my_env) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.dsv\n'}
+[5.650241] (my_env) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.dsv\n'}
+[5.650278] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/packages/my_env\n'}
+[5.650333] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/cmake/my_envConfig.cmake\n'}
+[5.650386] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/cmake/my_envConfig-version.cmake\n'}
+[5.650428] (my_env) StdoutLine: {'line': b'-- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.xml\n'}
+[5.650469] (my_env) CommandEnded: {'returncode': 0}
+[5.659419] (my_env) JobEnded: {'identifier': 'my_env', 'rc': 0}
+[5.659809] (-) EventReactorShutdown: {}

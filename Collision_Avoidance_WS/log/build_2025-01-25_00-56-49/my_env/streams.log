@@ -1,0 +1,144 @@
+[0.011s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.164s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.189s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.191s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.231s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.386s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.414s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.416s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.418s] -- Searching for dependencies of ignition-math6
+[0.419s] -- Looking for OGRE...
+[0.426s] -- Found Ogre Ghadamon (1.9.0)
+[0.426s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.433s] -- Looking for OGRE_Paging...
+[0.434s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.434s] -- Looking for OGRE_Terrain...
+[0.434s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.434s] -- Looking for OGRE_Property...
+[0.434s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.434s] -- Looking for OGRE_RTShaderSystem...
+[0.434s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.434s] -- Looking for OGRE_Volume...
+[0.434s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.434s] -- Looking for OGRE_Overlay...
+[0.434s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.471s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.471s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.471s] -- Searching for dependencies of ignition-transport8
+[0.489s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.499s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.503s] -- Checking for module 'libzmq >= 4'
+[0.522s] --   Found libzmq , version 4.3.4
+[0.623s] -- Checking for module 'uuid'
+[0.658s] --   Found uuid, version 2.37.2
+[0.722s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.722s] -- Searching for dependencies of ignition-msgs5
+[0.745s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.752s] -- Checking for module 'tinyxml2'
+[0.777s] --   Found tinyxml2, version 9.0.0
+[0.843s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.843s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.844s] -- Searching for dependencies of ignition-common3
+[0.844s] -- Looking for dlfcn.h - found
+[0.844s] -- Looking for libdl - found
+[0.860s] -- Searching for <ignition-common3> component [graphics]
+[0.861s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.861s] -- Searching for dependencies of ignition-common3-graphics
+[0.862s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.862s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.863s] -- Searching for dependencies of ignition-fuel_tools4
+[0.918s] -- Checking for module 'jsoncpp'
+[0.943s] --   Found jsoncpp, version 1.9.5
+[1.019s] -- Checking for module 'libzip'
+[1.045s] --   Found libzip, version 1.7.3
+[1.111s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.112s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.112s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.114s] -- Gazebo version: 11.10
+[1.117s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.168s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.168s] -- Configured cppcheck include dirs: 
+[1.168s] -- Configured cppcheck exclude dirs and/or files: 
+[1.168s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.169s] -- Added test 'lint_cmake' to check CMake code style
+[1.169s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.170s] -- Added test 'uncrustify' to check C / C++ code style
+[1.170s] -- Configured uncrustify additional arguments: 
+[1.171s] -- Added test 'xmllint' to check XML markup files
+[1.171s] -- Configuring done
+[1.175s] -- Generating done
+[1.177s] -- Build files have been written to: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
+[1.185s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env
+[1.185s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[1.243s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[1.255s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
+[1.261s] -- Install configuration: ""
+[1.261s] -- Execute custom install script
+[1.262s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/robot_state_publisher.launch.py
+[1.271s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/spawn_turtlebot3.launch.py
+[1.283s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/training_env.launch.py
+[1.295s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//urdf/turtlebot3_burger.urdf
+[1.307s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_burger/model-1_4.sdf
+[1.318s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_burger/model.config
+[1.329s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_burger/model.sdf
+[1.340s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_common/meshes/burger_base.dae
+[1.352s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_common/meshes/lds.dae
+[1.363s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_common/meshes/r200.dae
+[1.373s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_common/meshes/tire.dae
+[1.383s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_common/meshes/waffle_base.dae
+[1.395s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_common/meshes/waffle_pi_base.dae
+[1.406s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_common/model.config
+[1.417s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/goal_box/model.config
+[1.427s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/goal_box/model.sdf
+[1.437s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/inner_walls/model.config
+[1.445s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/inner_walls/model.sdf
+[1.457s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/model.config
+[1.468s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/model.sdf
+[1.480s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle1/model.config
+[1.490s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle1/model.sdf
+[1.496s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle2/model.config
+[1.504s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle2/model.sdf
+[1.510s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[1.517s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[1.529s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[1.542s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[1.556s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacles/model.config
+[1.567s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_dqn_world/obstacles/model.sdf
+[1.578s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_house/model.config
+[1.588s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_house/model.sdf
+[1.600s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_waffle/model-1_4.sdf
+[1.609s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_waffle/model.config
+[1.622s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_waffle/model.sdf
+[1.636s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_waffle_pi/model-1_4_.sdf
+[1.648s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_waffle_pi/model.config
+[1.658s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_waffle_pi/model.sdf
+[1.667s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_world/meshes/hexagon.dae
+[1.678s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_world/meshes/wall.dae
+[1.686s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_world/model-1_4.sdf
+[1.693s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_world/model.config
+[1.703s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_world/model.sdf
+[1.715s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds/bot_with_people.world
+[1.726s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/package_run_dependencies/my_env
+[1.738s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/parent_prefix_path/my_env
+[1.750s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/ament_prefix_path.sh
+[1.762s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/ament_prefix_path.dsv
+[1.772s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/path.sh
+[1.783s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/path.dsv
+[1.793s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.bash
+[1.802s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.sh
+[1.814s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.zsh
+[1.826s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.dsv
+[1.838s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.dsv
+[1.848s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/packages/my_env
+[1.857s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/cmake/my_envConfig.cmake
+[1.865s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/cmake/my_envConfig-version.cmake
+[1.877s] -- Symlinking: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.xml
+[1.893s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env

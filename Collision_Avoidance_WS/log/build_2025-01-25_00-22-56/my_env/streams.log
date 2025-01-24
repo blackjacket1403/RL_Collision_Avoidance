@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[0.049s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[0.059s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
+[0.065s] -- Install configuration: ""
+[0.065s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch
+[0.065s] -- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/robot_state_publisher.launch.py
+[0.065s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/spawn_turtlebot3.launch.py
+[0.065s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//launch/training_env.launch.py
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds/bot_with_people.world
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/package_run_dependencies/my_env
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/parent_prefix_path/my_env
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/path.sh
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/environment/path.dsv
+[0.066s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.bash
+[0.067s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.sh
+[0.067s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.zsh
+[0.067s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/local_setup.dsv
+[0.067s] -- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.dsv
+[0.067s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/packages/my_env
+[0.067s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/cmake/my_envConfig.cmake
+[0.067s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/cmake/my_envConfig-version.cmake
+[0.067s] -- Up-to-date: /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.xml
+[0.068s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
