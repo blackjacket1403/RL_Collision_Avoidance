@@ -1,0 +1,1073 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (bcr_bot) JobQueued: {'identifier': 'bcr_bot', 'dependencies': OrderedDict()}
+[0.000301] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.000340] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000610] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo')])}
+[0.000677] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.004535] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.006817] (bcr_bot) JobStarted: {'identifier': 'bcr_bot'}
+[0.009558] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.009815] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/src/turtlebot3_simulations/turtlebot3_fake_node', '-DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[0.012061] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.012346] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[0.013863] (bcr_bot) JobProgress: {'identifier': 'bcr_bot', 'progress': 'cmake'}
+[0.014320] (bcr_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/src/bcr_bot', '-DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[0.099813] (-) TimerEvent: {}
+[0.200567] (-) TimerEvent: {}
+[0.301541] (-) TimerEvent: {}
+[0.402472] (-) TimerEvent: {}
+[0.503465] (-) TimerEvent: {}
+[0.604508] (-) TimerEvent: {}
+[0.705517] (-) TimerEvent: {}
+[0.806467] (-) TimerEvent: {}
+[0.907419] (-) TimerEvent: {}
+[1.008293] (-) TimerEvent: {}
+[1.109493] (-) TimerEvent: {}
+[1.210373] (-) TimerEvent: {}
+[1.311061] (-) TimerEvent: {}
+[1.411901] (-) TimerEvent: {}
+[1.512724] (-) TimerEvent: {}
+[1.613486] (-) TimerEvent: {}
+[1.714175] (-) TimerEvent: {}
+[1.814832] (-) TimerEvent: {}
+[1.915474] (-) TimerEvent: {}
+[1.989975] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.990423] (bcr_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.990690] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.015702] (-) TimerEvent: {}
+[2.116603] (-) TimerEvent: {}
+[2.217590] (-) TimerEvent: {}
+[2.318594] (-) TimerEvent: {}
+[2.419672] (-) TimerEvent: {}
+[2.520708] (-) TimerEvent: {}
+[2.621776] (-) TimerEvent: {}
+[2.722543] (-) TimerEvent: {}
+[2.823332] (-) TimerEvent: {}
+[2.924230] (-) TimerEvent: {}
+[3.024931] (-) TimerEvent: {}
+[3.125607] (-) TimerEvent: {}
+[3.226385] (-) TimerEvent: {}
+[3.327070] (-) TimerEvent: {}
+[3.374699] (bcr_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.374951] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.375172] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.427289] (-) TimerEvent: {}
+[3.528115] (-) TimerEvent: {}
+[3.629173] (-) TimerEvent: {}
+[3.648958] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.649718] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.650006] (bcr_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.729313] (-) TimerEvent: {}
+[3.829866] (-) TimerEvent: {}
+[3.930893] (-) TimerEvent: {}
+[4.031883] (-) TimerEvent: {}
+[4.132677] (-) TimerEvent: {}
+[4.233254] (-) TimerEvent: {}
+[4.309763] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.310017] (bcr_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.318489] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[4.319331] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.319686] (bcr_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[4.319996] (bcr_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.328927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.333306] (-) TimerEvent: {}
+[4.336179] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.336301] (bcr_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.337597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[4.337935] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.338429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.340457] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.340770] (bcr_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.341524] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.433668] (-) TimerEvent: {}
+[4.534311] (-) TimerEvent: {}
+[4.634776] (-) TimerEvent: {}
+[4.663188] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.670801] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[4.670996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.671320] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.678173] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.678275] (bcr_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.684858] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[4.685087] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.685390] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.687641] (bcr_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[4.687948] (bcr_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.688596] (bcr_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.734866] (-) TimerEvent: {}
+[4.785358] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.785816] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.785981] (bcr_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.835031] (-) TimerEvent: {}
+[4.935568] (-) TimerEvent: {}
+[5.035785] (-) TimerEvent: {}
+[5.136006] (-) TimerEvent: {}
+[5.186236] (bcr_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.190990] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.199516] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.236139] (-) TimerEvent: {}
+[5.336505] (-) TimerEvent: {}
+[5.436987] (-) TimerEvent: {}
+[5.537527] (-) TimerEvent: {}
+[5.553523] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.637795] (-) TimerEvent: {}
+[5.738376] (-) TimerEvent: {}
+[5.743404] (bcr_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.747701] (bcr_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[5.750933] (bcr_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot\n'}
+[5.757201] (bcr_bot) CommandEnded: {'returncode': 0}
+[5.758028] (bcr_bot) JobProgress: {'identifier': 'bcr_bot', 'progress': 'build'}
+[5.759228] (bcr_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot', '--', '-j12', '-l12'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[5.771642] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[5.772040] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[5.772202] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[5.772351] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[5.772479] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[5.772602] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.772741] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[5.772870] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[5.773018] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[5.773164] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.773305] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[5.773436] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[5.777468] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[5.819742] (bcr_bot) CommandEnded: {'returncode': 0}
+[5.820966] (bcr_bot) JobProgress: {'identifier': 'bcr_bot', 'progress': 'install'}
+[5.831711] (bcr_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[5.838465] (-) TimerEvent: {}
+[5.842154] (bcr_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.842313] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch\n'}
+[5.842416] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/gz.launch.py\n'}
+[5.889426] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/bcr_bot_gz_spawn.launch.py\n'}
+[5.911266] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/bcr_bot_ign_spawn.launch.py\n'}
+[5.925655] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/gazebo.launch.py\n'}
+[5.932784] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/mapping.launch.py\n'}
+[5.933249] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/nav2.launch.py\n'}
+[5.938584] (-) TimerEvent: {}
+[5.945937] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/rviz.launch.py\n'}
+[5.946292] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/ign.launch.py\n'}
+[5.946633] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//launch/bcr_bot_gazebo_spawn.launch.py\n'}
+[5.947146] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes\n'}
+[5.947354] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/logo.png\n'}
+[5.948206] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/kinect\n'}
+[5.948399] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/kinect/kinect.jpg\n'}
+[5.949142] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/kinect/d415.dae\n'}
+[5.962668] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/kinect/kinect.tga\n'}
+[5.963654] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/kinect/kinect.dae\n'}
+[5.971465] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.017036] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/realsense_texture.png\n'}
+[6.017796] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//meshes/bcr_bot_mesh.dae\n'}
+[6.037921] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models\n'}
+[6.038152] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01\n'}
+[6.038237] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/.DS_Store\n'}
+[6.038345] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/model.sdf\n'}
+[6.038493] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/meshes\n'}
+[6.038591] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE\n'}
+[6.038682] (-) TimerEvent: {}
+[6.038996] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE\n'}
+[6.039239] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials\n'}
+[6.039329] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store\n'}
+[6.039519] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials/textures\n'}
+[6.039605] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png\n'}
+[6.075836] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/model.config\n'}
+[6.088823] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01\n'}
+[6.089059] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/model.sdf\n'}
+[6.108069] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/meshes\n'}
+[6.108299] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE\n'}
+[6.123782] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE\n'}
+[6.125374] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials\n'}
+[6.125943] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures\n'}
+[6.126147] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png\n'}
+[6.138896] (-) TimerEvent: {}
+[6.170329] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png\n'}
+[6.236311] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/model.config\n'}
+[6.237284] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01\n'}
+[6.237666] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/model.sdf\n'}
+[6.237804] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/meshes\n'}
+[6.238005] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE\n'}
+[6.238111] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE\n'}
+[6.238294] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials\n'}
+[6.238454] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials/textures\n'}
+[6.238639] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png\n'}
+[6.238964] (-) TimerEvent: {}
+[6.239331] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png\n'}
+[6.339223] (-) TimerEvent: {}
+[6.353202] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/model.config\n'}
+[6.367544] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01\n'}
+[6.367956] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/model.sdf\n'}
+[6.384369] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/meshes\n'}
+[6.384752] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE\n'}
+[6.396590] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE\n'}
+[6.397545] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.439474] (-) TimerEvent: {}
+[6.451575] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials\n'}
+[6.452108] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures\n'}
+[6.452263] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png\n'}
+[6.453472] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png\n'}
+[6.454205] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png\n'}
+[6.501738] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/model.config\n'}
+[6.519491] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01\n'}
+[6.519919] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/model.sdf\n'}
+[6.532988] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/meshes\n'}
+[6.533402] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE\n'}
+[6.539633] (-) TimerEvent: {}
+[6.540580] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE\n'}
+[6.576753] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.577344] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials\n'}
+[6.577719] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures\n'}
+[6.577847] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png\n'}
+[6.608708] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png\n'}
+[6.616515] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png\n'}
+[6.629589] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png\n'}
+[6.629859] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/model.config\n'}
+[6.630174] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01\n'}
+[6.630354] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store\n'}
+[6.630571] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf\n'}
+[6.631656] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/meshes\n'}
+[6.631823] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE\n'}
+[6.639711] (-) TimerEvent: {}
+[6.673840] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE\n'}
+[6.711407] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials\n'}
+[6.712059] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store\n'}
+[6.719080] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures\n'}
+[6.719531] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png\n'}
+[6.727610] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[6.739877] (-) TimerEvent: {}
+[6.744443] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png\n'}
+[6.745229] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.779639] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/model.config\n'}
+[6.790070] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01\n'}
+[6.790541] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/.DS_Store\n'}
+[6.790990] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/model.sdf\n'}
+[6.791360] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/meshes\n'}
+[6.791727] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE\n'}
+[6.802683] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE\n'}
+[6.803052] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials\n'}
+[6.803192] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store\n'}
+[6.803634] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures\n'}
+[6.803767] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png\n'}
+[6.805460] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png\n'}
+[6.839937] (-) TimerEvent: {}
+[6.846298] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png\n'}
+[6.848397] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png\n'}
+[6.848610] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/model.config\n'}
+[6.848951] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01\n'}
+[6.849061] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/model.sdf\n'}
+[6.849320] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/meshes\n'}
+[6.849438] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE\n'}
+[6.849767] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE\n'}
+[6.850358] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/materials\n'}
+[6.850451] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/materials/textures\n'}
+[6.850539] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png\n'}
+[6.851129] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/model.config\n'}
+[6.851346] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01\n'}
+[6.851438] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/model.sdf\n'}
+[6.851648] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/meshes\n'}
+[6.851797] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE\n'}
+[6.871527] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE\n'}
+[6.872539] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/materials\n'}
+[6.872687] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures\n'}
+[6.872788] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png\n'}
+[6.873994] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/model.config\n'}
+[6.874371] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01\n'}
+[6.874629] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/model.sdf\n'}
+[6.874803] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/meshes\n'}
+[6.874920] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE\n'}
+[6.876114] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE\n'}
+[6.876340] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/materials\n'}
+[6.876532] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/materials/textures\n'}
+[6.876684] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png\n'}
+[6.876838] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/model.config\n'}
+[6.877059] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01\n'}
+[6.877212] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store\n'}
+[6.877352] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/model.sdf\n'}
+[6.891664] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/meshes\n'}
+[6.892047] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE\n'}
+[6.933687] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE\n'}
+[6.934951] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials\n'}
+[6.935450] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store\n'}
+[6.935861] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures\n'}
+[6.936134] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store\n'}
+[6.936244] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png\n'}
+[6.939414] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[6.940053] (-) TimerEvent: {}
+[6.990496] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png\n'}
+[7.035798] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png\n'}
+[7.036994] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.040152] (-) TimerEvent: {}
+[7.060743] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/model.config\n'}
+[7.061258] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01\n'}
+[7.061507] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/model.sdf\n'}
+[7.091324] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/meshes\n'}
+[7.091724] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE\n'}
+[7.106651] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE\n'}
+[7.140417] (-) TimerEvent: {}
+[7.161937] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials\n'}
+[7.162569] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures\n'}
+[7.163183] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png\n'}
+[7.187091] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png\n'}
+[7.223463] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/model.config\n'}
+[7.224517] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01\n'}
+[7.225275] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/model.sdf\n'}
+[7.225581] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/meshes\n'}
+[7.225775] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE\n'}
+[7.226439] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE\n'}
+[7.240695] (-) TimerEvent: {}
+[7.260019] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials\n'}
+[7.260427] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store\n'}
+[7.260966] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures\n'}
+[7.261334] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png\n'}
+[7.262291] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png\n'}
+[7.293702] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd\n'}
+[7.340824] (-) TimerEvent: {}
+[7.360186] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png\n'}
+[7.370923] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png\n'}
+[7.372728] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/model.config\n'}
+[7.373196] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01\n'}
+[7.373826] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/model.sdf\n'}
+[7.373986] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/meshes\n'}
+[7.374080] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE\n'}
+[7.374334] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE\n'}
+[7.374831] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/materials\n'}
+[7.375498] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/materials/textures\n'}
+[7.375891] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png\n'}
+[7.389871] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/model.config\n'}
+[7.428255] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//urdf\n'}
+[7.428703] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//urdf/gz.xacro\n'}
+[7.440886] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//urdf/gazebo.xacro\n'}
+[7.441061] (-) TimerEvent: {}
+[7.441470] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//urdf/ign.xacro\n'}
+[7.441791] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//urdf/macros.xacro\n'}
+[7.442244] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//urdf/bcr_bot.xacro\n'}
+[7.442895] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//urdf/materials.xacro\n'}
+[7.443286] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//worlds\n'}
+[7.443727] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.443954] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//worlds/empty.sdf\n'}
+[7.444064] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//worlds/small_warehouse.sdf\n'}
+[7.444241] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//rviz\n'}
+[7.444360] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//rviz/entire_setup.rviz\n'}
+[7.462417] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot//rviz/map.rviz\n'}
+[7.491227] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/config\n'}
+[7.491803] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/config/bcr_map.yaml\n'}
+[7.492112] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/config/mapper_params_online_async.yaml\n'}
+[7.492338] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/config/bcr_map.pgm\n'}
+[7.541346] (-) TimerEvent: {}
+[7.544881] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/config/nav2_params.yaml\n'}
+[7.545711] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/lib/bcr_bot/remapper.py\n'}
+[7.546232] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/ament_index/resource_index/package_run_dependencies/bcr_bot\n'}
+[7.546730] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/ament_index/resource_index/parent_prefix_path/bcr_bot\n'}
+[7.547324] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/environment/ament_prefix_path.sh\n'}
+[7.547535] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/environment/ament_prefix_path.dsv\n'}
+[7.547739] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/environment/path.sh\n'}
+[7.547847] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/environment/path.dsv\n'}
+[7.547947] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/local_setup.bash\n'}
+[7.548048] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/local_setup.sh\n'}
+[7.548264] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/local_setup.zsh\n'}
+[7.548435] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/local_setup.dsv\n'}
+[7.548542] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/package.dsv\n'}
+[7.548747] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/ament_index/resource_index/packages/bcr_bot\n'}
+[7.548858] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/cmake/bcr_botConfig.cmake\n'}
+[7.548959] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/cmake/bcr_botConfig-version.cmake\n'}
+[7.549106] (bcr_bot) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot/share/bcr_bot/package.xml\n'}
+[7.552337] (bcr_bot) CommandEnded: {'returncode': 0}
+[7.556596] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.570485] (bcr_bot) JobEnded: {'identifier': 'bcr_bot', 'rc': 0}
+[7.641483] (-) TimerEvent: {}
+[7.741864] (-) TimerEvent: {}
+[7.842314] (-) TimerEvent: {}
+[7.942989] (-) TimerEvent: {}
+[7.968172] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[8.043107] (-) TimerEvent: {}
+[8.143514] (-) TimerEvent: {}
+[8.157027] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.243676] (-) TimerEvent: {}
+[8.344109] (-) TimerEvent: {}
+[8.444758] (-) TimerEvent: {}
+[8.545467] (-) TimerEvent: {}
+[8.608549] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[8.645773] (-) TimerEvent: {}
+[8.684474] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.728748] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.745873] (-) TimerEvent: {}
+[8.814391] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.846101] (-) TimerEvent: {}
+[8.883072] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.946362] (-) TimerEvent: {}
+[9.031533] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[9.046602] (-) TimerEvent: {}
+[9.073097] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[9.074241] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[9.086284] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[9.111415] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[9.146738] (-) TimerEvent: {}
+[9.230183] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[9.246825] (-) TimerEvent: {}
+[9.284255] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[9.289819] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.295975] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[9.313629] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[9.313719] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[9.318497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[9.318588] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[9.322758] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[9.322852] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[9.327312] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[9.327425] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[9.331452] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[9.331559] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[9.335510] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[9.339327] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.346885] (-) TimerEvent: {}
+[9.409576] (turtlebot3_fake_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.433511] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.447007] (-) TimerEvent: {}
+[9.454465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.544669] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[9.546006] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[9.547124] (-) TimerEvent: {}
+[9.572999] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[9.601953] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[9.607403] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[9.647351] (-) TimerEvent: {}
+[9.740748] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.741002] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.747532] (-) TimerEvent: {}
+[9.794408] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[9.847673] (-) TimerEvent: {}
+[9.864184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[9.905402] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[9.933423] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.935228] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.947773] (-) TimerEvent: {}
+[9.953781] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[10.020433] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[10.047844] (-) TimerEvent: {}
+[10.059050] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.060917] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[10.089437] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.103342] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.113479] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[10.147979] (-) TimerEvent: {}
+[10.154720] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[10.181791] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[10.230484] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.248092] (-) TimerEvent: {}
+[10.327370] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.328602] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[10.329837] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.331761] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.334119] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[10.348259] (-) TimerEvent: {}
+[10.354919] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.9 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[10.398371] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[10.399706] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[10.432929] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[10.434261] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[10.435132] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.448529] (-) TimerEvent: {}
+[10.457548] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[10.458800] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[10.548670] (-) TimerEvent: {}
+[10.558815] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)\n'}
+[10.635805] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[10.648758] (-) TimerEvent: {}
+[10.686325] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.699095] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.702589] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Generating done\n'}
+[10.705787] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Build files have been written to: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node\n'}
+[10.713106] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[10.713510] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'build'}
+[10.713668] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node', '--', '-j12', '-l12'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[10.718348] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[10.748869] (-) TimerEvent: {}
+[10.773510] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[10.777555] (turtlebot3_fake_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o\x1b[0m\n'}
+[10.787036] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[10.849075] (-) TimerEvent: {}
+[10.949782] (-) TimerEvent: {}
+[10.977645] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[11.046549] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[11.046941] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[11.047548] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.047947] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[11.049807] (-) TimerEvent: {}
+[11.150142] (-) TimerEvent: {}
+[11.192919] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[11.196351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[11.225225] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.228687] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.234703] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.243132] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.250201] (-) TimerEvent: {}
+[11.254461] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.281132] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[11.292815] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[11.318961] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.320903] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.350392] (-) TimerEvent: {}
+[11.442483] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.450464] (-) TimerEvent: {}
+[11.467849] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.507196] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.515705] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.543648] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.550558] (-) TimerEvent: {}
+[11.555647] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[11.611096] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.650813] (-) TimerEvent: {}
+[11.751443] (-) TimerEvent: {}
+[11.775983] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[11.781590] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo\n'}
+[11.791083] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[11.791588] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[11.791840] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[11.851537] (-) TimerEvent: {}
+[11.863963] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[11.865298] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[11.865453] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[11.867972] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[11.951865] (-) TimerEvent: {}
+[12.052777] (-) TimerEvent: {}
+[12.153502] (-) TimerEvent: {}
+[12.254190] (-) TimerEvent: {}
+[12.354816] (-) TimerEvent: {}
+[12.455598] (-) TimerEvent: {}
+[12.556422] (-) TimerEvent: {}
+[12.657203] (-) TimerEvent: {}
+[12.757921] (-) TimerEvent: {}
+[12.858591] (-) TimerEvent: {}
+[12.959379] (-) TimerEvent: {}
+[13.060144] (-) TimerEvent: {}
+[13.160884] (-) TimerEvent: {}
+[13.261667] (-) TimerEvent: {}
+[13.362455] (-) TimerEvent: {}
+[13.463285] (-) TimerEvent: {}
+[13.564447] (-) TimerEvent: {}
+[13.665359] (-) TimerEvent: {}
+[13.766146] (-) TimerEvent: {}
+[13.866836] (-) TimerEvent: {}
+[13.967548] (-) TimerEvent: {}
+[14.068191] (-) TimerEvent: {}
+[14.168970] (-) TimerEvent: {}
+[14.269828] (-) TimerEvent: {}
+[14.370724] (-) TimerEvent: {}
+[14.471401] (-) TimerEvent: {}
+[14.572088] (-) TimerEvent: {}
+[14.672916] (-) TimerEvent: {}
+[14.773740] (-) TimerEvent: {}
+[14.874542] (-) TimerEvent: {}
+[14.975363] (-) TimerEvent: {}
+[15.076162] (-) TimerEvent: {}
+[15.177018] (-) TimerEvent: {}
+[15.277798] (-) TimerEvent: {}
+[15.378550] (-) TimerEvent: {}
+[15.479372] (-) TimerEvent: {}
+[15.580284] (-) TimerEvent: {}
+[15.681083] (-) TimerEvent: {}
+[15.781845] (-) TimerEvent: {}
+[15.882520] (-) TimerEvent: {}
+[15.983264] (-) TimerEvent: {}
+[16.083910] (-) TimerEvent: {}
+[16.184760] (-) TimerEvent: {}
+[16.285589] (-) TimerEvent: {}
+[16.386432] (-) TimerEvent: {}
+[16.487257] (-) TimerEvent: {}
+[16.587970] (-) TimerEvent: {}
+[16.688777] (-) TimerEvent: {}
+[16.789409] (-) TimerEvent: {}
+[16.890095] (-) TimerEvent: {}
+[16.990840] (-) TimerEvent: {}
+[17.091663] (-) TimerEvent: {}
+[17.192285] (-) TimerEvent: {}
+[17.293019] (-) TimerEvent: {}
+[17.393719] (-) TimerEvent: {}
+[17.494284] (-) TimerEvent: {}
+[17.595164] (-) TimerEvent: {}
+[17.696040] (-) TimerEvent: {}
+[17.796822] (-) TimerEvent: {}
+[17.897491] (-) TimerEvent: {}
+[17.998338] (-) TimerEvent: {}
+[18.099135] (-) TimerEvent: {}
+[18.199892] (-) TimerEvent: {}
+[18.300744] (-) TimerEvent: {}
+[18.346796] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_fake_node\x1b[0m\n'}
+[18.400929] (-) TimerEvent: {}
+[18.455711] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[18.501131] (-) TimerEvent: {}
+[18.601742] (-) TimerEvent: {}
+[18.702172] (-) TimerEvent: {}
+[18.802842] (-) TimerEvent: {}
+[18.903530] (-) TimerEvent: {}
+[19.004209] (-) TimerEvent: {}
+[19.104702] (-) TimerEvent: {}
+[19.205309] (-) TimerEvent: {}
+[19.305961] (-) TimerEvent: {}
+[19.406472] (-) TimerEvent: {}
+[19.507129] (-) TimerEvent: {}
+[19.607928] (-) TimerEvent: {}
+[19.708795] (-) TimerEvent: {}
+[19.809670] (-) TimerEvent: {}
+[19.910307] (-) TimerEvent: {}
+[20.010634] (-) TimerEvent: {}
+[20.097996] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] Built target turtlebot3_drive\n'}
+[20.110752] (-) TimerEvent: {}
+[20.211075] (-) TimerEvent: {}
+[20.311329] (-) TimerEvent: {}
+[20.366639] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] Built target turtlebot3_fake_node\n'}
+[20.375000] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[20.375429] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'install'}
+[20.375553] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[20.384407] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.384565] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node\n'}
+[20.387331] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Set runtime path of "/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""\n'}
+[20.387422] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch\n'}
+[20.387527] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py\n'}
+[20.411410] (-) TimerEvent: {}
+[20.419977] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py\n'}
+[20.440901] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param\n'}
+[20.441351] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml\n'}
+[20.456248] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml\n'}
+[20.457150] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml\n'}
+[20.468674] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/include/\n'}
+[20.469004] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/include//turtlebot3_fake_node\n'}
+[20.469193] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp\n'}
+[20.469327] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node\n'}
+[20.469452] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node\n'}
+[20.469637] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh\n'}
+[20.469792] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv\n'}
+[20.469911] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh\n'}
+[20.470026] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv\n'}
+[20.470145] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash\n'}
+[20.470272] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh\n'}
+[20.470496] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh\n'}
+[20.470833] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv\n'}
+[20.471076] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv\n'}
+[20.471160] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node\n'}
+[20.471256] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.471337] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.471417] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake\n'}
+[20.471496] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake\n'}
+[20.471638] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml\n'}
+[20.474000] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[20.510655] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 0}
+[20.511482] (-) TimerEvent: {}
+[20.611810] (-) TimerEvent: {}
+[20.712520] (-) TimerEvent: {}
+[20.813276] (-) TimerEvent: {}
+[20.914047] (-) TimerEvent: {}
+[21.014763] (-) TimerEvent: {}
+[21.115475] (-) TimerEvent: {}
+[21.216126] (-) TimerEvent: {}
+[21.316840] (-) TimerEvent: {}
+[21.417601] (-) TimerEvent: {}
+[21.518267] (-) TimerEvent: {}
+[21.618928] (-) TimerEvent: {}
+[21.719561] (-) TimerEvent: {}
+[21.820197] (-) TimerEvent: {}
+[21.920751] (-) TimerEvent: {}
+[22.021380] (-) TimerEvent: {}
+[22.122157] (-) TimerEvent: {}
+[22.222799] (-) TimerEvent: {}
+[22.323435] (-) TimerEvent: {}
+[22.424167] (-) TimerEvent: {}
+[22.524911] (-) TimerEvent: {}
+[22.625672] (-) TimerEvent: {}
+[22.726455] (-) TimerEvent: {}
+[22.827377] (-) TimerEvent: {}
+[22.928226] (-) TimerEvent: {}
+[23.028975] (-) TimerEvent: {}
+[23.129646] (-) TimerEvent: {}
+[23.230301] (-) TimerEvent: {}
+[23.331132] (-) TimerEvent: {}
+[23.431952] (-) TimerEvent: {}
+[23.532716] (-) TimerEvent: {}
+[23.633420] (-) TimerEvent: {}
+[23.734166] (-) TimerEvent: {}
+[23.834794] (-) TimerEvent: {}
+[23.935525] (-) TimerEvent: {}
+[24.036275] (-) TimerEvent: {}
+[24.137031] (-) TimerEvent: {}
+[24.237771] (-) TimerEvent: {}
+[24.338412] (-) TimerEvent: {}
+[24.439147] (-) TimerEvent: {}
+[24.539769] (-) TimerEvent: {}
+[24.640506] (-) TimerEvent: {}
+[24.741292] (-) TimerEvent: {}
+[24.842040] (-) TimerEvent: {}
+[24.942789] (-) TimerEvent: {}
+[25.043582] (-) TimerEvent: {}
+[25.144410] (-) TimerEvent: {}
+[25.245226] (-) TimerEvent: {}
+[25.345977] (-) TimerEvent: {}
+[25.446744] (-) TimerEvent: {}
+[25.547465] (-) TimerEvent: {}
+[25.648340] (-) TimerEvent: {}
+[25.749040] (-) TimerEvent: {}
+[25.849794] (-) TimerEvent: {}
+[25.950573] (-) TimerEvent: {}
+[26.051331] (-) TimerEvent: {}
+[26.152112] (-) TimerEvent: {}
+[26.252848] (-) TimerEvent: {}
+[26.353560] (-) TimerEvent: {}
+[26.454308] (-) TimerEvent: {}
+[26.555126] (-) TimerEvent: {}
+[26.655970] (-) TimerEvent: {}
+[26.756788] (-) TimerEvent: {}
+[26.857577] (-) TimerEvent: {}
+[26.958354] (-) TimerEvent: {}
+[27.059144] (-) TimerEvent: {}
+[27.159900] (-) TimerEvent: {}
+[27.260594] (-) TimerEvent: {}
+[27.361398] (-) TimerEvent: {}
+[27.462234] (-) TimerEvent: {}
+[27.563051] (-) TimerEvent: {}
+[27.663696] (-) TimerEvent: {}
+[27.764458] (-) TimerEvent: {}
+[27.865259] (-) TimerEvent: {}
+[27.966058] (-) TimerEvent: {}
+[28.066817] (-) TimerEvent: {}
+[28.167449] (-) TimerEvent: {}
+[28.268228] (-) TimerEvent: {}
+[28.368905] (-) TimerEvent: {}
+[28.469701] (-) TimerEvent: {}
+[28.570368] (-) TimerEvent: {}
+[28.671162] (-) TimerEvent: {}
+[28.771839] (-) TimerEvent: {}
+[28.872465] (-) TimerEvent: {}
+[28.973291] (-) TimerEvent: {}
+[29.074114] (-) TimerEvent: {}
+[29.174812] (-) TimerEvent: {}
+[29.275444] (-) TimerEvent: {}
+[29.376124] (-) TimerEvent: {}
+[29.476914] (-) TimerEvent: {}
+[29.577736] (-) TimerEvent: {}
+[29.678538] (-) TimerEvent: {}
+[29.779383] (-) TimerEvent: {}
+[29.880165] (-) TimerEvent: {}
+[29.997234] (-) TimerEvent: {}
+[30.097936] (-) TimerEvent: {}
+[30.198605] (-) TimerEvent: {}
+[30.299288] (-) TimerEvent: {}
+[30.399922] (-) TimerEvent: {}
+[30.500546] (-) TimerEvent: {}
+[30.601307] (-) TimerEvent: {}
+[30.702126] (-) TimerEvent: {}
+[30.802877] (-) TimerEvent: {}
+[30.903607] (-) TimerEvent: {}
+[31.004392] (-) TimerEvent: {}
+[31.105031] (-) TimerEvent: {}
+[31.205781] (-) TimerEvent: {}
+[31.306645] (-) TimerEvent: {}
+[31.407491] (-) TimerEvent: {}
+[31.508316] (-) TimerEvent: {}
+[31.609026] (-) TimerEvent: {}
+[31.709794] (-) TimerEvent: {}
+[31.810589] (-) TimerEvent: {}
+[31.911357] (-) TimerEvent: {}
+[32.012248] (-) TimerEvent: {}
+[32.113127] (-) TimerEvent: {}
+[32.213880] (-) TimerEvent: {}
+[32.314661] (-) TimerEvent: {}
+[32.415402] (-) TimerEvent: {}
+[32.516193] (-) TimerEvent: {}
+[32.617163] (-) TimerEvent: {}
+[32.718003] (-) TimerEvent: {}
+[32.818818] (-) TimerEvent: {}
+[32.919647] (-) TimerEvent: {}
+[33.020430] (-) TimerEvent: {}
+[33.121123] (-) TimerEvent: {}
+[33.221777] (-) TimerEvent: {}
+[33.322471] (-) TimerEvent: {}
+[33.423240] (-) TimerEvent: {}
+[33.524056] (-) TimerEvent: {}
+[33.624872] (-) TimerEvent: {}
+[33.725729] (-) TimerEvent: {}
+[33.826532] (-) TimerEvent: {}
+[33.927241] (-) TimerEvent: {}
+[34.028015] (-) TimerEvent: {}
+[34.128849] (-) TimerEvent: {}
+[34.229670] (-) TimerEvent: {}
+[34.330333] (-) TimerEvent: {}
+[34.430998] (-) TimerEvent: {}
+[34.531779] (-) TimerEvent: {}
+[34.632548] (-) TimerEvent: {}
+[34.733291] (-) TimerEvent: {}
+[34.834109] (-) TimerEvent: {}
+[34.934907] (-) TimerEvent: {}
+[35.035722] (-) TimerEvent: {}
+[35.136553] (-) TimerEvent: {}
+[35.237404] (-) TimerEvent: {}
+[35.338220] (-) TimerEvent: {}
+[35.438983] (-) TimerEvent: {}
+[35.539789] (-) TimerEvent: {}
+[35.640474] (-) TimerEvent: {}
+[35.741154] (-) TimerEvent: {}
+[35.841877] (-) TimerEvent: {}
+[35.942432] (-) TimerEvent: {}
+[36.043095] (-) TimerEvent: {}
+[36.143908] (-) TimerEvent: {}
+[36.244578] (-) TimerEvent: {}
+[36.345187] (-) TimerEvent: {}
+[36.445772] (-) TimerEvent: {}
+[36.546420] (-) TimerEvent: {}
+[36.647276] (-) TimerEvent: {}
+[36.748166] (-) TimerEvent: {}
+[36.848995] (-) TimerEvent: {}
+[36.949730] (-) TimerEvent: {}
+[37.050337] (-) TimerEvent: {}
+[37.151127] (-) TimerEvent: {}
+[37.251803] (-) TimerEvent: {}
+[37.352515] (-) TimerEvent: {}
+[37.453358] (-) TimerEvent: {}
+[37.554008] (-) TimerEvent: {}
+[37.685825] (-) TimerEvent: {}
+[37.786719] (-) TimerEvent: {}
+[37.887534] (-) TimerEvent: {}
+[37.988439] (-) TimerEvent: {}
+[38.089241] (-) TimerEvent: {}
+[38.190004] (-) TimerEvent: {}
+[38.290788] (-) TimerEvent: {}
+[38.391599] (-) TimerEvent: {}
+[38.492382] (-) TimerEvent: {}
+[38.593197] (-) TimerEvent: {}
+[38.694020] (-) TimerEvent: {}
+[38.794797] (-) TimerEvent: {}
+[38.895690] (-) TimerEvent: {}
+[38.996452] (-) TimerEvent: {}
+[39.097152] (-) TimerEvent: {}
+[39.197939] (-) TimerEvent: {}
+[39.298812] (-) TimerEvent: {}
+[39.399676] (-) TimerEvent: {}
+[39.500342] (-) TimerEvent: {}
+[39.601136] (-) TimerEvent: {}
+[39.701871] (-) TimerEvent: {}
+[39.802602] (-) TimerEvent: {}
+[39.903381] (-) TimerEvent: {}
+[40.004074] (-) TimerEvent: {}
+[40.104829] (-) TimerEvent: {}
+[40.205591] (-) TimerEvent: {}
+[40.306434] (-) TimerEvent: {}
+[40.407147] (-) TimerEvent: {}
+[40.507993] (-) TimerEvent: {}
+[40.608797] (-) TimerEvent: {}
+[40.709654] (-) TimerEvent: {}
+[40.810365] (-) TimerEvent: {}
+[40.911205] (-) TimerEvent: {}
+[41.012379] (-) TimerEvent: {}
+[41.113174] (-) TimerEvent: {}
+[41.214331] (-) TimerEvent: {}
+[41.315409] (-) TimerEvent: {}
+[41.416582] (-) TimerEvent: {}
+[41.517750] (-) TimerEvent: {}
+[41.618879] (-) TimerEvent: {}
+[41.720022] (-) TimerEvent: {}
+[41.821088] (-) TimerEvent: {}
+[41.922097] (-) TimerEvent: {}
+[42.023116] (-) TimerEvent: {}
+[42.124280] (-) TimerEvent: {}
+[42.225491] (-) TimerEvent: {}
+[42.326527] (-) TimerEvent: {}
+[42.427565] (-) TimerEvent: {}
+[42.528572] (-) TimerEvent: {}
+[42.629658] (-) TimerEvent: {}
+[42.730593] (-) TimerEvent: {}
+[42.831478] (-) TimerEvent: {}
+[42.932599] (-) TimerEvent: {}
+[43.033749] (-) TimerEvent: {}
+[43.134803] (-) TimerEvent: {}
+[43.235865] (-) TimerEvent: {}
+[43.336837] (-) TimerEvent: {}
+[43.437826] (-) TimerEvent: {}
+[43.538792] (-) TimerEvent: {}
+[43.639916] (-) TimerEvent: {}
+[43.741029] (-) TimerEvent: {}
+[43.842127] (-) TimerEvent: {}
+[43.943104] (-) TimerEvent: {}
+[44.043895] (-) TimerEvent: {}
+[44.144913] (-) TimerEvent: {}
+[44.245708] (-) TimerEvent: {}
+[44.346793] (-) TimerEvent: {}
+[44.447822] (-) TimerEvent: {}
+[44.548906] (-) TimerEvent: {}
+[44.649974] (-) TimerEvent: {}
+[44.776803] (-) TimerEvent: {}
+[44.870009] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[44.876923] (-) TimerEvent: {}
+[44.923934] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[44.938089] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[44.977214] (-) TimerEvent: {}
+[45.077894] (-) TimerEvent: {}
+[45.178610] (-) TimerEvent: {}
+[45.279351] (-) TimerEvent: {}
+[45.339996] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[45.340225] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle2\n'}
+[45.340554] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[45.350499] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[45.351101] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[45.351449] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[45.366679] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.366951] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[45.371399] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""\n'}
+[45.371529] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[45.371644] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[45.379459] (-) TimerEvent: {}
+[45.387881] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[45.388331] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[45.402891] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[45.403440] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[45.411630] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[45.412421] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[45.412942] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[45.413257] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[45.413691] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[45.413855] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[45.414001] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[45.414431] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[45.414945] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[45.415200] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[45.415421] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[45.415764] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[45.415952] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[45.416127] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[45.416404] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[45.416701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[45.417054] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[45.417215] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[45.417561] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[45.417833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[45.418197] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[45.418388] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[45.436739] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[45.437315] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[45.437604] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[45.437830] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[45.438234] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[45.438977] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[45.439694] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[45.460843] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[45.461275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[45.461565] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[45.462061] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[45.462252] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[45.462592] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[45.462957] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[45.463361] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[45.463492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[45.464559] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[45.464784] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[45.465457] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[45.465624] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[45.465833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[45.466189] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[45.466503] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[45.466743] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[45.467147] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[45.467386] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[45.467606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[45.467957] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[45.468597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[45.468740] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[45.469595] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[45.469873] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[45.469970] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[45.470303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[45.470764] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[45.470859] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[45.471692] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[45.472027] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[45.472160] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[45.472570] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[45.472691] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[45.472892] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[45.473180] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[45.473507] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[45.473784] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[45.473962] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[45.474108] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[45.474358] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[45.474613] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[45.479672] (-) TimerEvent: {}
+[45.484755] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[45.485085] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[45.485332] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[45.485689] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/include/\n'}
+[45.485937] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[45.486072] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[45.486236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[45.486357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[45.486561] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[45.486844] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[45.487030] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[45.487175] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[45.487308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[45.487465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[45.487593] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[45.487821] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[45.487961] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[45.488088] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[45.488212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.488335] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.488457] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[45.488579] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[45.488770] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[45.490320] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[45.532917] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[45.534496] (turtlebot3_simulations) JobStarted: {'identifier': 'turtlebot3_simulations'}
+[45.545192] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'cmake'}
+[45.545525] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/src/turtlebot3_simulations/turtlebot3_simulations', '-DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[45.579792] (-) TimerEvent: {}
+[45.680174] (-) TimerEvent: {}
+[45.680435] (turtlebot3_simulations) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[45.780379] (-) TimerEvent: {}
+[45.882476] (-) TimerEvent: {}
+[45.983142] (-) TimerEvent: {}
+[45.992170] (turtlebot3_simulations) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[46.079787] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[46.083319] (-) TimerEvent: {}
+[46.183677] (-) TimerEvent: {}
+[46.284040] (-) TimerEvent: {}
+[46.287287] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[46.297293] (turtlebot3_simulations) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[46.297626] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[46.298172] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[46.301885] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[46.384426] (-) TimerEvent: {}
+[46.443611] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[46.448582] (turtlebot3_simulations) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[46.448774] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[46.449067] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[46.450789] (turtlebot3_simulations) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[46.484659] (-) TimerEvent: {}
+[46.585322] (-) TimerEvent: {}
+[46.685766] (-) TimerEvent: {}
+[46.728031] (turtlebot3_simulations) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[46.786096] (-) TimerEvent: {}
+[46.847756] (turtlebot3_simulations) StdoutLine: {'line': b'-- Configuring done\n'}
+[46.849002] (turtlebot3_simulations) StdoutLine: {'line': b'-- Generating done\n'}
+[46.849885] (turtlebot3_simulations) StdoutLine: {'line': b'-- Build files have been written to: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations\n'}
+[46.853344] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[46.853770] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'build'}
+[46.853790] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations', '--', '-j12', '-l12'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[46.886201] (-) TimerEvent: {}
+[46.898827] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[46.899413] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'install'}
+[46.899731] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations'], 'cwd': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nishant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia'), ('HOME', '/home/nishant'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nishant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nishant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/usr/lib/nvidia:/home/nishant/miniconda3/condabin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/home/nishant/.mujoco/mjpro150/bin:/usr/lib/nvidia:/home/nishant/.mujoco/mjpro150/bin:/home/nishant/lib/nvidia:/opt/ros/humble/bin:/usr/lib/ccache:/home/nishant/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/nishant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts:/home/nishant/Learning/swarm_ros/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/nishant:@/tmp/.ICE-unix/1738,unix/nishant:/tmp/.ICE-unix/1738'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a586f8d2_a82e_4709_a1d3_e752e6d4ead6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.47AB12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nishant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('MUJOCO_PY_MJPRO_PATH', '/home/nishant/.mujoco/mjpro150'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nishant/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_gazebo:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_fake_node:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations:/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/bcr_bot:/opt/ros/humble')]), 'shell': False}
+[46.910151] (turtlebot3_simulations) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.910315] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations\n'}
+[46.910427] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations\n'}
+[46.910559] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh\n'}
+[46.910665] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv\n'}
+[46.910757] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh\n'}
+[46.910840] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv\n'}
+[46.910924] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash\n'}
+[46.911007] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh\n'}
+[46.911086] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh\n'}
+[46.911167] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv\n'}
+[46.911247] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv\n'}
+[46.911323] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations\n'}
+[46.911414] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake\n'}
+[46.911491] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake\n'}
+[46.911564] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml\n'}
+[46.913466] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[46.927592] (turtlebot3_simulations) JobEnded: {'identifier': 'turtlebot3_simulations', 'rc': 0}
+[46.928325] (-) EventReactorShutdown: {}

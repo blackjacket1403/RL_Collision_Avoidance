@@ -7,9 +7,9 @@ import cv2
 from sensor_msgs.msg import LaserScan, Image
 from cv_bridge import CvBridge
 
-class CostMapNode(Node):
+class DensityMapNode(Node):
     def __init__(self):
-        super().__init__('cost_map_generator')
+        super().__init__('density_map_generator')
 
         # Subscriber for 2D LiDAR data
         self.scan_subscriber = self.create_subscription(
@@ -19,95 +19,90 @@ class CostMapNode(Node):
             10
         )
 
-        # Publisher for the cost map (as an Image)
-        self.image_publisher = self.create_publisher(Image, '/cost_map', 10)
+        # Publisher for the density map (as an Image)
+        self.image_publisher = self.create_publisher(Image, '/density_map', 10)
 
-        # Bridge to convert between OpenCV and ROS Image messages
+        # Bridge for ROS <-> OpenCV image conversion
         self.bridge = CvBridge()
 
-        # Parameters for the cost map
-        self.lidar_range_max = 10.0  # Max LiDAR range (meters, adjust as per your LiDAR specs)
-        self.resolution = 500  # Resolution of the cost map (pixels)
-        self.center = self.resolution // 2  # Center of the map
+        # Map and LiDAR parameters
+        self.lidar_range_max = 10.0  # Max LiDAR range (meters)
+        self.resolution = 500  # Fixed resolution for the map
+        self.center = self.resolution // 2  # Map center point
         self.scale = self.resolution / (2 * self.lidar_range_max)  # Pixels per meter
 
-        # Cost map parameters
-        self.obstacle_cost = 100  # Cost for obstacles
-        self.inflation_radius = 20  # Inflation radius in pixels (safety margin)
-        self.inflation_decay = 0.5  # Cost decay factor for inflation zone
+        # Gaussian blur parameters
+        self.gaussian_kernel_size = 15  # Size of the Gaussian kernel
+        self.gaussian_sigma = 5  # Standard deviation for Gaussian blur
 
-        self.get_logger().info("CostMapNode initialized.")
+        self.get_logger().info("DensityMapNode initialized.")
 
     def scan_callback(self, msg: LaserScan):
-        """Callback to process the LaserScan data and generate the cost map."""
-        # LiDAR scan angles and ranges
+        """Process LaserScan data and generate a density map."""
+        # Extract ranges and angles
         ranges = np.array(msg.ranges)
-        angle_min = msg.angle_min
-        angle_increment = msg.angle_increment
+        angles = msg.angle_min + np.arange(len(ranges)) * msg.angle_increment
 
-        # Filter out invalid ranges
-        ranges[np.isnan(ranges)] = 0.0
-        ranges[ranges > self.lidar_range_max] = self.lidar_range_max
+        # Filter invalid ranges
+        valid = (ranges > 0) & (ranges <= self.lidar_range_max)
+        ranges = ranges[valid]
+        angles = angles[valid]
 
-        # Generate a blank cost map (free space has 0 cost)
-        cost_map = np.zeros((self.resolution, self.resolution), dtype=np.uint8)
-
-        # Calculate angles for all ranges
-        angles = angle_min + np.arange(len(ranges)) * angle_increment
-
-        # Convert polar coordinates to Cartesian (vectorized)
+        # Convert polar coordinates to Cartesian and map to grid
         x = (self.center + ranges * self.scale * np.cos(angles)).astype(int)
         y = (self.center - ranges * self.scale * np.sin(angles)).astype(int)
 
-        # Filter out points outside the map
-        valid = (x >= 0) & (x < self.resolution) & (y >= 0) & (y < self.resolution)
-        x = x[valid]
-        y = y[valid]
+        # Initialize a blank density map (black image)
+        density_map = np.zeros((self.resolution, self.resolution), dtype=np.float32)
 
-        # Mark obstacles with high cost
-        cost_map[y, x] = self.obstacle_cost
+        # Mark obstacle points with high density
+        density_map[y, x] = 1.0  # Obstacle points have maximum density
 
-        # Apply inflation around obstacles
-        self.apply_inflation(cost_map, self.inflation_radius, self.inflation_decay)
+        # Mark occluded regions behind obstacles as high density
+        self.mark_occluded_regions(density_map, x, y)
 
-        # Publish the cost map as an image
-        cost_image = self.bridge.cv2_to_imgmsg(cost_map, encoding='mono8')
-        self.image_publisher.publish(cost_image)
+        # Apply Gaussian blur to create smooth transitions
+        density_map = cv2.GaussianBlur(density_map, (self.gaussian_kernel_size, self.gaussian_kernel_size), self.gaussian_sigma)
 
-        self.get_logger().info('Published cost map')
+        # Normalize the density map to [0, 255]
+        density_map = cv2.normalize(density_map, None, 0, 255, cv2.NORM_MINMAX)
+        density_map = density_map.astype(np.uint8)
 
-    def apply_inflation(self, cost_map, inflation_radius, decay_factor):
-        """
-        Apply inflation around obstacles to create a cost gradient.
-        """
-        # Create a kernel for inflation
-        kernel_size = 2 * inflation_radius + 1
-        y, x = np.ogrid[-inflation_radius:inflation_radius + 1, -inflation_radius:inflation_radius + 1]
-        kernel = np.exp(-(x**2 + y**2) / (2 * (inflation_radius / 3)**2))  # Gaussian kernel
-        kernel = (kernel * decay_factor * self.obstacle_cost).astype(np.uint8)
+        # Publish the density map as a ROS Image
+        density_image = self.bridge.cv2_to_imgmsg(density_map, encoding='mono8')
+        self.image_publisher.publish(density_image)
 
-        # Find obstacle locations
-        obstacle_locations = np.argwhere(cost_map == self.obstacle_cost)
+        self.get_logger().info('Published density map')
 
-        # Apply the kernel to each obstacle location
-        for (y_obs, x_obs) in obstacle_locations:
-            y_min = max(y_obs - inflation_radius, 0)
-            y_max = min(y_obs + inflation_radius + 1, cost_map.shape[0])
-            x_min = max(x_obs - inflation_radius, 0)
-            x_max = min(x_obs + inflation_radius + 1, cost_map.shape[1])
+    def mark_occluded_regions(self, density_map, x, y):
+        """Mark regions behind obstacles as high density."""
+        # Create a grid of coordinates
+        y_grid, x_grid = np.indices(density_map.shape)
 
-            # Apply the kernel to the region around the obstacle
-            cost_map[y_min:y_max, x_min:x_max] = np.maximum(
-                cost_map[y_min:y_max, x_min:x_max],
-                kernel[
-                    y_min - (y_obs - inflation_radius):y_max - (y_obs - inflation_radius),
-                    x_min - (x_obs - inflation_radius):x_max - (x_obs - inflation_radius)
-                ]
-            )
+        # Compute the direction vectors from the LiDAR origin to each obstacle point
+        dx = x - self.center
+        dy = y - self.center
+
+        # Compute the distance from the LiDAR origin to each obstacle point
+        dist = np.sqrt(dx**2 + dy**2)
+
+        # Normalize the direction vectors
+        dx_norm = dx / dist
+        dy_norm = dy / dist
+
+        # Compute the distance from the LiDAR origin to each grid point
+        dist_grid = np.sqrt((x_grid - self.center)**2 + (y_grid - self.center)**2)
+
+        # Compute the projection of each grid point onto the direction vectors
+        proj = (x_grid - self.center) * dx_norm[:, None, None] + (y_grid - self.center) * dy_norm[:, None, None]
+
+        # Mark occluded regions (behind obstacles)
+        occluded = (proj > dist[:, None, None]) & (np.abs(proj - dist[:, None, None]) < 1.0)
+        density_map[occluded.any(axis=0)] = 1.0
 
 def main(args=None):
     rclpy.init(args=args)
-    node = CostMapNode()
+    node = DensityMapNode()
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
