@@ -1,0 +1,41 @@
+[0.011s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/openai_ros': /usr/bin/cmake /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/DWA-RL/openai_ros/openai_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/openai_ros
+[0.126s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.127s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.127s]   CMake.
+[0.127s] 
+[0.128s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.128s]   CMake that the project does not need compatibility with older versions.
+[0.128s] 
+[0.128s] [0m
+[1.350s] -- The C compiler identification is GNU 11.4.0
+[2.541s] -- The CXX compiler identification is GNU 11.4.0
+[2.730s] -- Detecting C compiler ABI info
+[3.018s] -- Detecting C compiler ABI info - done
+[3.024s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[3.038s] -- Detecting C compile features
+[3.044s] -- Detecting C compile features - done
+[3.053s] -- Detecting CXX compiler ABI info
+[3.284s] -- Detecting CXX compiler ABI info - done
+[3.290s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[3.290s] -- Detecting CXX compile features
+[3.291s] -- Detecting CXX compile features - done
+[3.386s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[3.386s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.386s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.386s]   CMake did not find one.
+[3.386s] 
+[3.386s]   Could not find a package configuration file provided by "catkin" with any
+[3.386s]   of the following names:
+[3.386s] 
+[3.387s]     catkinConfig.cmake
+[3.387s]     catkin-config.cmake
+[3.387s] 
+[3.387s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.387s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.387s]   provides a separate development package or SDK, be sure it has been
+[3.387s]   installed.
+[3.387s] 
+[3.387s] [0m
+[3.387s] -- Configuring incomplete, errors occurred!
+[3.387s] See also "/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/openai_ros/CMakeFiles/CMakeOutput.log".
+[3.389s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/openai_ros' returned '1': /usr/bin/cmake /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/DWA-RL/openai_ros/openai_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/openai_ros

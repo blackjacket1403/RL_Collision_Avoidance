@@ -1,0 +1,1 @@
+Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/turtlebot3_gazebo -- -j12 -l12

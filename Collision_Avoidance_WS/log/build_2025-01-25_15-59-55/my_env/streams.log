@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[0.039s] -- Configuring incomplete, errors occurred!
+[0.039s] See also "/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env/CMakeFiles/CMakeOutput.log".
+[0.039s] [31mCMake Error at CMakeLists.txt:20:
+[0.040s]   Parse error.  Expected "(", got newline with text "
+[0.040s] 
+[0.040s]   ".
+[0.040s] 
+[0.040s] [0m
+[0.041s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.043s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12

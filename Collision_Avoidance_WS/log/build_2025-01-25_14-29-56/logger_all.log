@@ -1,0 +1,138 @@
+[34.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[34.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70467a2e8e80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70467a4c31f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70467a4c31f0>>, mixin_verb=('build',))
+[37.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[37.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[37.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[37.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[37.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[37.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[37.579s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS'
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[37.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[37.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[37.745s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[37.746s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[37.746s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[37.746s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[37.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[37.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[37.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[37.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[37.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[37.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[37.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[37.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[37.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[37.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[37.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[37.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[37.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[37.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['ignore', 'ignore_ament_install']
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'ignore'
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'ignore_ament_install'
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['colcon_pkg']
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'colcon_pkg'
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['colcon_meta']
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'colcon_meta'
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['ros']
+[37.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'ros'
+[37.926s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_env' with type 'ros.ament_cmake' and name 'my_env'
+[37.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[37.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[37.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[37.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[37.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[38.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[38.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[38.884s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 455 installed packages in /opt/ros/humble
+[38.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_args' from command line to 'None'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_target' from command line to 'None'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_clean_cache' from command line to 'False'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_clean_first' from command line to 'False'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_force_configure' from command line to 'False'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'ament_cmake_args' from command line to 'None'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'catkin_cmake_args' from command line to 'None'
+[39.201s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'catkin_skip_building_tests' from command line to 'False'
+[39.201s] DEBUG:colcon.colcon_core.verb:Building package 'my_env' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env', 'merge_install': False, 'path': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env', 'symlink_install': False, 'test_result_base': None}
+[39.201s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[39.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[39.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env' with build type 'ament_cmake'
+[39.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env'
+[39.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[39.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[40.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[44.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[44.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
+[45.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_env)
+[45.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
+[45.598s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake module files
+[45.599s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake config files
+[45.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_env', 'cmake_prefix_path')
+[45.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.ps1'
+[45.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.dsv'
+[45.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.sh'
+[45.661s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[45.662s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/pkgconfig/my_env.pc'
+[45.662s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/python3.10/site-packages'
+[45.662s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[45.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.ps1'
+[45.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.dsv'
+[45.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.sh'
+[45.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.bash'
+[45.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.zsh'
+[45.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/colcon-core/packages/my_env)
+[45.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_env)
+[45.731s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake module files
+[45.732s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake config files
+[45.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_env', 'cmake_prefix_path')
+[45.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.ps1'
+[45.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.dsv'
+[45.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.sh'
+[45.735s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[45.735s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/pkgconfig/my_env.pc'
+[45.735s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/python3.10/site-packages'
+[45.735s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[45.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.ps1'
+[45.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.dsv'
+[45.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.sh'
+[45.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.bash'
+[45.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.zsh'
+[45.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/colcon-core/packages/my_env)
+[45.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.742s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.792s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.823s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.ps1'
+[45.867s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/_local_setup_util_ps1.py'
+[45.887s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.ps1'
+[45.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.sh'
+[45.907s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/_local_setup_util_sh.py'
+[45.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.sh'
+[45.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.bash'
+[45.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.bash'
+[45.980s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.zsh'
+[45.982s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.zsh'

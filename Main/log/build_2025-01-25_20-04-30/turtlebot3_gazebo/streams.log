@@ -1,0 +1,5 @@
+[0.113s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/turtlebot3_gazebo -- -j12 -l12
+[0.179s] [0mCMake Error: The current CMakeCache.txt directory /home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/turtlebot3_gazebo/CMakeCache.txt is different than the directory /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/turtlebot3_gazebo where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.206s] [0mCMake Error: The source directory "/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/src/turtlebot3_simulations/turtlebot3_gazebo" does not exist.
+[0.206s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.208s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1

@@ -1,0 +1,167 @@
+    <actor name='actor1'>
+      <pose frame=''>0 1 0 0 -0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name='walking'>
+        <filename>walk.dae</filename>
+        <interpolate_x>1</interpolate_x>
+      </animation>
+      <script>
+        <loop>1</loop>
+        <trajectory id='1' type='walking' tension='0'>
+          <waypoint>
+            <time>0</time>
+            <pose>15 2 0 0 0 0</pose> <!-- Random start -->
+          </waypoint>
+          <waypoint>
+            <time>10.2</time>
+            <pose>3 -1 0 0 0 0</pose> <!-- Random end -->
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name='actor2'>
+      <pose frame=''>0 1 0 0 -0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name='walking'>
+        <filename>walk.dae</filename>
+        <interpolate_x>1</interpolate_x>
+      </animation>
+      <script>
+        <loop>1</loop>
+        <trajectory id='2' type='walking' tension='0'>
+          <waypoint>
+            <time>0</time>
+            <pose>5 -2 0 0 0 0</pose> <!-- Random start -->
+          </waypoint>
+          <waypoint>
+            <time>9.8</time>
+            <pose>12 2 0 0 0 0</pose> <!-- Random end -->
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name='actor3'>
+      <pose frame=''>0 1 0 0 -0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name='walking'>
+        <filename>walk.dae</filename>
+        <interpolate_x>1</interpolate_x>
+      </animation>
+      <script>
+        <loop>1</loop>
+        <trajectory id='3' type='walking' tension='0'>
+          <waypoint>
+            <time>0</time>
+            <pose>10 1 0 0 0 0</pose> <!-- Random start -->
+          </waypoint>
+          <waypoint>
+            <time>11.3</time>
+            <pose>4 -2 0 0 0 0</pose> <!-- Random end -->
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name='actor4'>
+      <pose frame=''>0 1 0 0 -0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name='walking'>
+        <filename>walk.dae</filename>
+        <interpolate_x>1</interpolate_x>
+      </animation>
+      <script>
+        <loop>1</loop>
+        <trajectory id='4' type='walking' tension='0'>
+          <waypoint>
+            <time>0</time>
+            <pose>1 2 0 0 0 0</pose> <!-- Random start -->
+          </waypoint>
+          <waypoint>
+            <time>13.7</time>
+            <pose>17 -1 0 0 0 0</pose> <!-- Random end -->
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name='actor5'>
+      <pose frame=''>0 1 0 0 -0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name='walking'>
+        <filename>walk.dae</filename>
+        <interpolate_x>1</interpolate_x>
+      </animation>
+      <script>
+        <loop>1</loop>
+        <trajectory id='5' type='walking' tension='0'>
+          <waypoint>
+            <time>0</time>
+            <pose>18 -3 0 0 0 0</pose> <!-- Random start -->
+          </waypoint>
+          <waypoint>
+            <time>8.5</time>
+            <pose>0 3 0 0 0 0</pose> <!-- Random end -->
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name='actor6'>
+      <pose frame=''>0 1 0 0 -0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name='walking'>
+        <filename>walking.dae</filename>
+        <interpolate_x>1</interpolate_x>
+      </animation>
+      <script>
+        <loop>1</loop>
+        <trajectory id='6' type='walking' tension='0'>
+          <waypoint>
+            <time>0</time>
+            <pose>7 0 0 0 0 0</pose> <!-- Random start -->
+          </waypoint>
+          <waypoint>
+            <time>10.9</time>
+            <pose>14 -2 0 0 0 0</pose> <!-- Random end -->
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <actor name='actor7'>
+      <pose frame=''>0 1 0 0 -0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name='walking'>
+        <filename>walk.dae</filename>
+        <interpolate_x>1</interpolate_x>
+      </animation>
+      <script>
+        <loop>1</loop>
+        <trajectory id='7' type='walking' tension='0'>
+          <waypoint>
+            <time>0</time>
+            <pose>3 3 0 0 0 0</pose> <!-- Random start -->
+          </waypoint>
+          <waypoint>
+            <time>12.1</time>
+            <pose>15 -3 0 0 0 0</pose> <!-- Random end -->
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>

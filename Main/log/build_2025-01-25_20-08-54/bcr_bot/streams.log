@@ -1,0 +1,6 @@
+[0.012s] Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/bcr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/bcr_bot -- -j12 -l12
+[0.019s] [0mCMake Error: The current CMakeCache.txt directory /home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/bcr_bot/CMakeCache.txt is different than the directory /home/nishant/Documents/RL_Collision_Avoidance_Project/Main/build/bcr_bot where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.033s] [0mCMake Error: The source directory "/home/nishant/Documents/RL_Collision_Avoidance_Project/Main/src/bcr_bot" does not exist.
+[0.034s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.035s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.039s] Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/bcr_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Main_Testing_WS/build/bcr_bot -- -j12 -l12

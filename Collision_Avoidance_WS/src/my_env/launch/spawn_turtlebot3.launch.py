@@ -13,17 +13,14 @@ def generate_launch_description():
         'launch',
         'gazebo.launch.py'
     )
-
-    # Start Gazebo
     start_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(gazebo_launch_file)
     )
 
-    # Path to TurtleBot3 SDF model
     sdf_model_path = os.path.join(
         get_package_share_directory('my_env'),
         'models',
-        'turtlebot3_burger',
+        'turtlebot3_waffle',
         'model.sdf'
     )
 
@@ -32,7 +29,7 @@ def generate_launch_description():
         package='gazebo_ros',
         executable='spawn_entity.py',
         arguments=[
-            '-entity', 'burger_unique',
+            '-entity', 'waffle_unique',
             '-file', sdf_model_path,
             '-x', '0.0',
             '-y', '0.0',
@@ -41,9 +38,7 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Create the launch description
     ld = LaunchDescription()
-    ld.add_action(start_gazebo)
     ld.add_action(LogInfo(msg=f"Spawning TurtleBot3 from {sdf_model_path}"))
     ld.add_action(spawn_robot_cmd)
 
