@@ -39,6 +39,9 @@ def generate_launch_description():
     )
 
     ld = LaunchDescription()
+
+    # Launch Gazebo and spawn the robot
+    ld.add_action(start_gazebo)
     ld.add_action(LogInfo(msg=f"Spawning TurtleBot3 from {sdf_model_path}"))
     ld.add_action(spawn_robot_cmd)
 

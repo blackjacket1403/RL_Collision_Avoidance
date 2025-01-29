@@ -57,6 +57,7 @@
 /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_world/model.config
 /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//turtlebot3_world/model.sdf
 /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds/bot_with_people.world
+/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds/maze.world
 /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env//worlds/saver.txt
 /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/package_run_dependencies/my_env
 /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/ament_index/resource_index/parent_prefix_path/my_env

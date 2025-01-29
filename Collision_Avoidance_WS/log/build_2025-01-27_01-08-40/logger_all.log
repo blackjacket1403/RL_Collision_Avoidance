@@ -1,0 +1,208 @@
+[26.936s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[26.936s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x795cb85dcf10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x795cb87b7340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x795cb87b7340>>, mixin_verb=('build',))
+[29.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[29.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[29.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[29.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[29.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[29.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[29.407s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS'
+[29.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[29.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[29.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[29.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[29.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[29.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[29.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[29.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[29.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[29.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[29.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[29.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[29.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[29.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[29.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[29.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[29.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[29.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[29.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[29.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[29.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[29.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extensions ['ignore', 'ignore_ament_install']
+[29.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'ignore'
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'ignore_ament_install'
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extensions ['colcon_pkg']
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'colcon_pkg'
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extensions ['colcon_meta']
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'colcon_meta'
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extensions ['ros']
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'ros'
+[29.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extensions ['cmake', 'python']
+[29.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'cmake'
+[29.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'python'
+[29.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extensions ['python_setup_py']
+[29.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env) by extension 'python_setup_py'
+[29.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extensions ['ignore', 'ignore_ament_install']
+[29.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'ignore'
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'ignore_ament_install'
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extensions ['colcon_pkg']
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'colcon_pkg'
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extensions ['colcon_meta']
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'colcon_meta'
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extensions ['ros']
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'ros'
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extensions ['cmake', 'python']
+[29.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'cmake'
+[29.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'python'
+[29.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extensions ['python_setup_py']
+[29.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env) by extension 'python_setup_py'
+[29.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'ignore'
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'ignore_ament_install'
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extensions ['colcon_pkg']
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'colcon_pkg'
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extensions ['colcon_meta']
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'colcon_meta'
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extensions ['ros']
+[29.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'ros'
+[29.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extensions ['cmake', 'python']
+[29.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'cmake'
+[29.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'python'
+[29.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extensions ['python_setup_py']
+[29.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/__pycache__) by extension 'python_setup_py'
+[29.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extensions ['ignore', 'ignore_ament_install']
+[29.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'ignore'
+[29.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'ignore_ament_install'
+[29.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extensions ['colcon_pkg']
+[29.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'colcon_pkg'
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extensions ['colcon_meta']
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'colcon_meta'
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extensions ['ros']
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'ros'
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extensions ['cmake', 'python']
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'cmake'
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'python'
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extensions ['python_setup_py']
+[29.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/logs) by extension 'python_setup_py'
+[29.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extensions ['ignore', 'ignore_ament_install']
+[29.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'ignore'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'ignore_ament_install'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extensions ['colcon_pkg']
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'colcon_pkg'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extensions ['colcon_meta']
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'colcon_meta'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extensions ['ros']
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'ros'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extensions ['cmake', 'python']
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'cmake'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'python'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extensions ['python_setup_py']
+[29.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/RL_env/Gymnasium_Env/models) by extension 'python_setup_py'
+[29.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['ignore', 'ignore_ament_install']
+[29.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'ignore'
+[29.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'ignore_ament_install'
+[29.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['colcon_pkg']
+[29.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'colcon_pkg'
+[29.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['colcon_meta']
+[29.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'colcon_meta'
+[29.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extensions ['ros']
+[29.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_env) by extension 'ros'
+[29.778s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_env' with type 'ros.ament_cmake' and name 'my_env'
+[29.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[29.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[29.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[29.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[29.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[30.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[30.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[31.122s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 454 installed packages in /opt/ros/humble
+[31.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_args' from command line to 'None'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_target' from command line to 'None'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_clean_cache' from command line to 'False'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_clean_first' from command line to 'False'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'cmake_force_configure' from command line to 'False'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'ament_cmake_args' from command line to 'None'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'catkin_cmake_args' from command line to 'None'
+[31.256s] Level 5:colcon.colcon_core.verb:set package 'my_env' build argument 'catkin_skip_building_tests' from command line to 'False'
+[31.256s] DEBUG:colcon.colcon_core.verb:Building package 'my_env' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env', 'merge_install': False, 'path': '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env', 'symlink_install': False, 'test_result_base': None}
+[31.256s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[31.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[31.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env' with build type 'ament_cmake'
+[31.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/src/my_env'
+[31.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[31.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[33.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env -- -j12 -l12
+[33.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
+[33.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_env)
+[33.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/build/my_env
+[33.898s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake module files
+[33.899s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake config files
+[33.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_env', 'cmake_prefix_path')
+[33.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.ps1'
+[33.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.dsv'
+[33.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.sh'
+[33.933s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[33.933s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/pkgconfig/my_env.pc'
+[33.933s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/python3.10/site-packages'
+[33.934s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[33.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.ps1'
+[33.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.dsv'
+[33.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.sh'
+[33.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.bash'
+[33.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.zsh'
+[33.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/colcon-core/packages/my_env)
+[33.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_env)
+[33.966s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake module files
+[33.967s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env' for CMake config files
+[33.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_env', 'cmake_prefix_path')
+[33.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.ps1'
+[33.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.dsv'
+[33.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/hook/cmake_prefix_path.sh'
+[33.970s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[33.971s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/pkgconfig/my_env.pc'
+[33.971s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/lib/python3.10/site-packages'
+[33.971s] Level 1:colcon.colcon_core.environment:checking '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/bin'
+[33.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.ps1'
+[33.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.dsv'
+[33.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.sh'
+[33.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.bash'
+[33.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/my_env/package.zsh'
+[33.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/my_env/share/colcon-core/packages/my_env)
+[33.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.975s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.010s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.010s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.040s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.ps1'
+[34.068s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/_local_setup_util_ps1.py'
+[34.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.ps1'
+[34.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.sh'
+[34.106s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/_local_setup_util_sh.py'
+[34.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.sh'
+[34.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.bash'
+[34.110s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.bash'
+[34.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/local_setup.zsh'
+[34.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nishant/Documents/RL_Collision_Avoidance_Project/Collision_Avoidance_WS/install/setup.zsh'
